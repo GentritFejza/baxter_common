@@ -9,6 +9,9 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 add_message_files(DIRECTORY msg FILES
+  AccelerationCommand.msg
+  AccelerationMax.msg
+  AccelerationMin.msg
   AnalogIOState.msg
   AnalogIOStates.msg
   AnalogOutputCommand.msg
