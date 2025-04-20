@@ -12,6 +12,9 @@ add_message_files(DIRECTORY msg FILES
   AccelerationCommand.msg
   AccelerationMax.msg
   AccelerationMin.msg
+  ReferentJointAngles.msg
+  DetectedObject.msg
+  ConveyorBeltSpeed.msg
   AnalogIOState.msg
   AnalogIOStates.msg
   AnalogOutputCommand.msg
